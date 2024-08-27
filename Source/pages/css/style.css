@@ -1,10 +1,11 @@
-html,
+
 body{
     position: relative;
     height: 100%;
+    text-align: center;
 }
 body{
-    background-color:azure;
+    background-color:#3232;
     font-family: helvetica Neve, Helvetica;
     font-size: 14px;
     color: black;
@@ -19,10 +20,9 @@ body{
 .swiper-slide{
     width: 300px;
     height: 500px;
-    background-color: antiquewhite;
+    background-color: #32323232;
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
     padding: 40px;
-    text-align: center;
 }
 .icons {
     display: flex;
@@ -32,9 +32,10 @@ body{
 }
 .icons i{
     font-size:  20px;
-    color: blue;
+    color: rgb(45, 30, 175);
 
 }
+
 .icons img {
     width: 120 px;
 }
@@ -53,13 +54,13 @@ body{
 }
 .product-txt h3{
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(240, 234, 234);
     text-transform: uppercase;
 
 }
 .product-txt p{
     font-size: 14px;
-    color: beige;
+    color: black;
 }
 .product-img{
  flex-basis: 50px;   
@@ -71,7 +72,14 @@ width: 120px;
 .btn-1 {
     display:  inline-block;
     padding: 13px 55px;
-    border: 1px solid black;
+    border: 1px solid rgb(17, 166, 224);
+    border-radius: 25px;
+    color: black;
     text-decoration: none;
     margin-top: 50px;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
 }
